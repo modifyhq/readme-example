@@ -1,28 +1,66 @@
 ---
 id: readme
 title: Readme
-description: Getting set up and productive for users who are new to Modify.
 ---
 
-# Modify
+## Welcome to Modify
 
-Modify is a modern publishing worflow for software teams. 
+Hey there! Thanks for checking out Modify! 
 
-What's different about Modify is that it helps software teams manage content with the tools they already know and love.
+Here are some tips to help you become productive **quickly**.
 
-<InfoMessage header="Key differentiator" content="With Modify, software teams get to use markdown/MDX, Git and popular build tools to create, build and publish content."/>
+You can also check out [this intro video](https://drive.google.com/file/d/1K_yPihhfHOarFLl87SxXlQ_iwngHdG6E/view?usp=sharing).
 
-## Features
+## Configure your layout 
 
-- **Text editor with real-time collaboration** - powerful text editor that supports real-time collaboration between teammates 
-- **Markdown and MDX** - create docs in markdown, and add React components using MDX to enrich docs visually.
-- **Yaml registers** - version controlled tabular data in yaml with schemas, and changes that can be preview using the register GUI.
-- **Git connectors** - read-write integrations with Git repositories hosted in Modify, GitHub and Bitbucket (with OAuth  external providers) for version control and users staying in control of their data. 
-- **Front matter** - supported in markdown, MDX and yaml files for improved searching and referencing
-- **Configurable layouts** - configure layouts with editor, preview, register, card and form views. Users can choose what interface works best for them.
-- **Artifact search** - search for artifacts using `id` and `title` fields defined in front matter
-- **Relationships** - defined in text and visualise as a graph that can be use to navigate round docs instead of the repository's tree view.
-- **Text-based diagrams** [mermaid](https://mermaid-js.github.io/mermaid/), [graphviz](https://graphviz.org/) and [nomnoml](https://nomnoml.com/) for version-controlled diagrams that can be created without leaving your editor.
-- **Workspace branching** - branch your workspace and all its connectors to work in isolation from your team.
-- **Reviews** - Review changes on a source branch and merge to a target branch once approvals and automated checks have passed.
-- **Jobs** - Run build and publish jobs using using popular build tools (e.g. Gatsby, NextJS) CI servies (GitHub Actions) and hosting services (Netlify, AWS S3).`
+By default, your layout is set to live preview, with editor and preview views. 
+
+You can configure your views using the view selector dropdowns on each pane.
+
+## Markdown/MDX docs
+
+The editor supports real-time collaboration on markdown (we support most of the [GFM](https://github.github.com/gfm/) spec) and [MDX](https://mdxjs.com/).
+
+To add a markdown file, hover over a directory in your connector's tree, hit the plus icon and create a new file. 
+
+You can use the editor's toolbar to add markdown syntax and the palette on the right to add JSX components, diagrams and relationships. 
+
+Once you've added some relationships, click the `Relationships` icon on the right of your repository to expand the sidebar with a graph visualising them. 
+
+## Yaml registers
+
+Registers are tabular data, with optional schemas, stored as yaml.
+
+To add a register, hover over a directory in your connector's tree, hit the plus icon and create a new register.
+
+To bootstrap your register's schema, select a template. Or add a column to start building your own.
+
+Use the table, card or editor views to edit your register. The fields are mapped between them, keeping your data in sync as you work across views.
+
+## Commit changes to Git
+
+Changes to markdown and yaml files in your repo are saved to your working copy in Modify's database.
+
+To commit changes to Git, click the repository's `Commit` button, add a commit message and select the files you want to commit. 
+
+In Git terms, this operation stages, commits and pushes to your repo all in one. 
+
+To inspect your commit history, hover over a file in your tree and click the `History` button. Clicking the commit hash will show a diff.
+
+## Branch your workspace 
+
+You can branch your workspace if: 
+
+- You want to work in isolation from your team, or
+- You are using a GitHub or Bitbucket connector and so must branch before you can edit files.
+
+To create a workspace branch, click the repository's `Branch` button and complete the form.
+
+Branching your workspace branches all of its connectors and their contents, including directories, files and working copy.
+
+## Merge changes 
+
+If you want to merge changes quickly into another branch, use the repository's merge button. 
+
+If you want to do a multi-user review with automated checks before merging, create a review on the `Reviews` page.
+
