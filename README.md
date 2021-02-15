@@ -9,7 +9,7 @@ Hey there! Thanks for checking out Modify!
 
 Here are some tips to help you become productive **quickly**.
 
-You can also check out [this intro video](http://bit.ly/39qNaEG).
+You can also check out [this intro video](https://youtu.be/yS6MamJOqPw).
 
 ## Configure your layout 
 
