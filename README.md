@@ -1,21 +1,21 @@
 ---
 id: readme
-title: Readme
+title: README
 ---
 
-## Welcome to Modify
+## Welcome to Modify!
 
-Hey there! Thanks for checking out Modify! 
+Hey there! Thanks for checking out Modify 😄
 
-Here are some tips to help you become productive **quickly**.
+Here are some tips to help you become productive *quickly*.
 
-You can also check out [this intro video](https://youtu.be/yS6MamJOqPw).
+Checkout our [intro video](https://youtu.be/yS6MamJOqPw) for a 5-minute overview of the basics.
 
 ## Configure your layout 
 
 By default, your layout is set to live preview, with editor and preview views. 
 
-You can configure your views using the view selector dropdowns on each pane.
+You can configure your layout using the view selector dropdowns.
 
 ## Markdown/MDX docs
 
@@ -23,13 +23,13 @@ The editor supports real-time collaboration on markdown (we support most of the 
 
 To add a markdown file, hover over a directory in your connector's tree, hit the plus icon and create a new file. 
 
-You can use the editor's toolbar to add markdown syntax and the palette on the right to add JSX components, diagrams and relationships. 
+You can use the editor's toolbar to add markdown syntax and the palette on the right to add MDX, diagrams and relationships. 
 
-Once you've added some relationships, click the `Relationships` icon on the right of your repository to expand the sidebar with a graph visualising them. 
+Once you've added relationships, click the Relationships icon on the right of your repository to expand the sidebar showing a graph of your workspace's relationships.
 
 ## Yaml registers
 
-Registers are tabular data, with optional schemas, stored as yaml.
+Registers are version-controlled, yaml tables that you can edit with a variety of views.
 
 To add a register, hover over a directory in your connector's tree, hit the plus icon and create a new register.
 
@@ -39,28 +39,27 @@ Use the table, card or editor views to edit your register. The fields are mapped
 
 ## Commit changes to Git
 
-Changes to markdown and yaml files in your repo are saved to your working copy in Modify's database.
+Changes to files on a workspace branch are saved to your working copy in Modify's database.
 
-To commit changes to Git, click the repository's `Commit` button, add a commit message and select the files you want to commit. 
+To commit changes to Git, click the repository's Commit button, add a commit message and select the files you want to commit. 
 
-In Git terms, this operation stages, commits and pushes to your repo all in one. 
+In Git terms, this operation stages, commits and pushes to your repository all in one. 
 
-To inspect your commit history, hover over a file in your tree and click the `History` button. Clicking the commit hash will show a diff.
+To inspect your commit history, hover over a file in your tree and click the History icon. Clicking the commit hash will show a diff.
 
 ## Branch your workspace 
 
-You can branch your workspace if: 
+You'll want to branch your workspace if: 
 
 - You want to work in isolation from your team, or
 - You are using a GitHub or Bitbucket connector and so must branch before you can edit files.
 
-To create a workspace branch, click the repository's `Branch` button and complete the form.
+To create a workspace branch, click the repository's Branch button and complete the form.
 
-Branching your workspace branches all of its connectors and their contents, including directories, files and working copy.
+Branching your workspace creates a copy of  branches all of its connectors and their contents, including directories, files and working copy.
 
 ## Merge changes 
 
-If you want to merge changes quickly into another branch, use the repository's merge button. 
+If you want to quickly merge changes from one branch to another branch, use the repository's merge button and select a target and source branch.
 
-If you want to do a multi-user review with automated checks before merging, create a review on the `Reviews` page.
-
+If you want to do a multi-user review with automated checks before merging, create a review on the Reviews page.
