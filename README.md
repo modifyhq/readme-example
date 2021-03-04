@@ -9,7 +9,7 @@ Hey there! Thanks for checking out Modify 😄
 
 Here are some tips to help you become productive *quickly*.
 
-Checkout our [intro video](https://youtu.be/yS6MamJOqPw) for a 5-minute overview of the basics.
+<InfoMessage icon="lightbulb" header="Intro video" content="Check out our intro video for a 5-minute overview of the basics - https://youtu.be/yS6MamJOqPw"/>
 
 ## Configure your layout 
 
