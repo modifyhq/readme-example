@@ -13,15 +13,15 @@ Checkout our [intro video](https://youtu.be/yS6MamJOqPw) for a 5-minute overview
 
 ## Configure your layout 
 
-By default, your layout is set to live preview, with editor and preview views. 
+By default, your layout is configured with text editor and preview views. 
 
-You can configure your layout using the view selector dropdowns.
+You can configure this using the view selector dropdowns.
 
 ## Markdown/MDX docs
 
 The editor supports real-time collaboration on markdown (we support most of the [GFM](https://github.github.com/gfm/) spec) and [MDX](https://mdxjs.com/).
 
-To add a markdown file, hover over a directory in your connector's tree, hit the plus icon and create a new file. 
+To add a markdown or MDX file, hover over a directory in your connector's tree, hit the plus icon and create a new file. 
 
 You can use the editor's toolbar to add markdown syntax and the palette on the right to add MDX, diagrams and relationships. 
 
