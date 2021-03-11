@@ -25,6 +25,8 @@ To add a markdown or MDX file, hover over a directory in your connector's tree, 
 
 You can use the editor's toolbar to add markdown syntax and the palette on the right to add MDX, diagrams and relationships. 
 
+<InfoMessage icon="lightbulb" header="ProTip" content="Hover over MDX component names in your editor to see more info on props, or use the syntax cheatsheet in your toolbar."/>
+
 Once you've added relationships, click the Relationships icon on the right of your repository to expand the sidebar showing a graph of your workspace's relationships.
 
 ## Yaml registers
