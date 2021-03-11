@@ -9,7 +9,7 @@ Hey there! Thanks for checking out Modify 😄
 
 Here are some tips to help you become productive *quickly*.
 
-<InfoMessage icon="lightbulb" header="Intro video" content="Check out our intro video for a 5-minute overview of the basics - https://youtu.be/yS6MamJOqPw"/>
+Check out our [intro video](https://youtu.be/yS6MamJOqPw) for a 5-minute overview of the basics.
 
 ## Configure your layout 
 
@@ -41,7 +41,7 @@ Use the table, card or editor views to edit your register. The fields are mapped
 
 Changes to files on a workspace branch are saved to your working copy in Modify's database.
 
-To commit changes to Git, click the repository's Commit button, add a commit message and select the files you want to commit. 
+To commit changes to Git, click the repository's Commit button, select the files you want to commit and add a commit message. 
 
 In Git terms, this operation stages, commits and pushes to your repository all in one. 
 
